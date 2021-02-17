@@ -1,0 +1,29 @@
+command_not_found_handle() {
+        /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
+
+printf "\e[1;91m                           \e[1;91m/         /. \e[0m\n"
+printf "\e[1;92m    .-------------.       \e[1;91m/_________/ | \e[0m\n"
+printf "\e[1;92m   /             / |      \e[1;91m|         | | \e[0m\n"
+printf "\e[1;92m  /+============+\ |      \e[1;91m| |\e[1;92m====\e[1;91m|  | | \e[0m\n"
+printf "\e[1;92m  ||\e[1;91mC:\>        \e[1;92m|| |      \e[1;91m|         | | \e[0m\n"
+printf "\e[1;92m  ||            || |      \e[1;91m| |\e[1;92m====\e[1;91m|  | | \e[0m\n"
+printf "\e[1;92m  || \e[1;95mPersian    \e[1;92m|| |      \e[1;91m|   ___   | | \e[0m\n"
+printf "\e[1;92m  ||      \e[1;95mElite \e[1;92m|| |      \e[1;91m|  |\e[1;92m166\e[1;91m|  | | \e[0m\n"
+printf "\e[1;92m  ||            ||/\e[1;93m@@@    \e[1;91m|   ---   | | \e[0m\n"
+printf "\e[1;92m  \+============+/    \e[1;93m@   \e[1;91m|_________|./. \e[0m\n"
+printf "\e[1;92m                     \e[1;93m@             \e[1;94m....* \e[0m\n"
+printf "\e[1;92m  ..................\e[1;93m@     \e[1;94m__.......* \e[0m\n"
+printf "\e[1;92m /oooooooooooooooo//     \e[1;94m/// \e[0m\n"
+printf "\e[1;92m/................//     \e[1;94m/_/ \e[0m\n"
+printf "\e[1;92m------------------ \e[0m\n"
+printf "\033[33m                                               \e[0m\n"
+printf "\e[1;91m _____             _        \e[1;92m _____ _ _ _        \e[0m\n"
+printf "\e[1;91m|  _  |___ ___ ___|_|___ ___\e[1;92m|   __| |_| |_ ___  \e[0m\n"
+printf "\e[1;91m|   __| -_|  _|_ -| | .'|   \e[1;92m|   __| | |  _| -_| \e[0m\n"
+printf "\e[1;91m|__|  |___|_| |___|_|__,|_|_\e[1;92m|_____|_|_|_| |___| \e[0m\n"
+printf "\033[33m                                               \e[0m\n"
+printf "\033[33m                                               \e[0m\n"
+
+PS1='\033[1;91mroot@kali[\033[1;93m\W\033[1;91m]:# \033[1;92m'
+
